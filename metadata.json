@@ -1,0 +1,6 @@
+{
+  "name": "RetroChips.js - Classic Console Sound Chip Synthesizer Library",
+  "description": "Biblioteca JavaScript y suite de sintetizadores Web Audio para emular chips de sonido de consolas clásicas hasta finales de los 90 (NES 2A03, Game Boy, Sega Genesis YM2612 FM, SNES S-DSP, C64 SID, SN76489 y PS1 SPU).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

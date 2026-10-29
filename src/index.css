@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom retro styling utilities */
+.retro-scroll::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.retro-scroll::-webkit-scrollbar-track {
+  background: rgba(24, 24, 27, 0.8);
+}
+.retro-scroll::-webkit-scrollbar-thumb {
+  background: rgba(82, 82, 91, 0.6);
+  border-radius: 3px;
+}
+.retro-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(161, 161, 170, 0.8);
+}
